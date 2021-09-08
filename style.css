@@ -1,0 +1,44 @@
+
+*{
+	background-color: black;
+}
+.Counter {
+
+	color: rgb(236, 59, 59);
+	text-align: center;
+	padding: 10px;
+	font-size: 50px;
+	
+	margin-top: 250px;
+	font-family: 'Creepster', cursive;
+}
+
+.count {
+	position: relative;
+	
+}
+.colorChange {
+	
+	background:linear-gradient( #f78402fa,rgba(255, 253, 253, 0.801), rgb(6, 139, 1));
+   
+	-webkit-text-fill-color:transparent;
+	-webkit-background-clip: text;
+
+	font-family: 'Bowlby One SC', cursive;
+	font-size: 80px;
+	letter-spacing: 5px;
+	
+}
+.colorChange:hover{
+	font-size: 70px;
+	color: orange,green;
+	transition: 1s ease;
+	
+}
+img{
+	width: 5%;
+}
+img:hover{
+	width: 8%;
+	transition: 1s ease-in-out;
+}
